@@ -1,0 +1,1 @@
+- You need to have at least .Net framework 4.5 installed to use this tool.
