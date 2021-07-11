@@ -26,9 +26,10 @@
                     <Label Content="Options" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
                     <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                         <Label Content="Add to main groups" Width="200"/>
-                        <CheckBox x:Name="btnAddToMainGroups" VerticalAlignment="Center"/>
+                        <CheckBox x:Name="btnAddToMainGroups" VerticalAlignment="Center" IsChecked="True"/>
                     </StackPanel>
 
+                    <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,0" VerticalAlignment="Top"/>
                     <Label Content="Manager information" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,10,0,0" VerticalAlignment="Top" />
 
                     <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
@@ -43,7 +44,7 @@
                     
                     <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                         <Label Content="" Width="200"/>
-                        <ProgressBar x:Name="pgProgressbar"  Minimum="0" Maximum="100" Value="75" Height="20" HorizontalAlignment="Left" Width="300" VerticalAlignment="Bottom" Margin="0,30,0,0"/>
+                        <ProgressBar x:Name="pgProgressbar" Visibility="Hidden" Minimum="0" Maximum="100" Value="75" Height="20" HorizontalAlignment="Left" Width="300" VerticalAlignment="Bottom" Margin="0,30,0,0"/>
                     </StackPanel>
 
                 </StackPanel>
