@@ -86,14 +86,14 @@
                     </controls:HamburgerMenuIconItem>
 
 					<controls:HamburgerMenuIconItem Icon="{StaticResource appbar_people_status}"
-                                                     Label="New Firm Hire">
+                                                     Label="User Accounts">
 						<controls:HamburgerMenuIconItem.Tag>
-                            <Grid x:Name="NewFirmHire"></Grid>
+                            <Grid x:Name="UserAccounts"></Grid>
                         </controls:HamburgerMenuIconItem.Tag>
                     </controls:HamburgerMenuIconItem>
 
 					<controls:HamburgerMenuIconItem Icon="{StaticResource appbar_chromakey}"
-                                                     Label="Internal Dialog Function">
+                                                     Label="Test">
 						<controls:HamburgerMenuIconItem.Tag>
                             <Grid x:Name="InternalView"></Grid>
                         </controls:HamburgerMenuIconItem.Tag>
