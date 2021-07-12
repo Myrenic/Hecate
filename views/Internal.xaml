@@ -16,11 +16,11 @@
 			
             <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                 <Label Content="Async :" Width="100"/>
-                <Button x:Name="btnOpenAsyncDialg" Content="Open async dialog" Width="200"/>
+                <Button x:Name="btnOpenAsyncDialg" Content="Test delegate Credentials" Width="200"/>
             </StackPanel>
 			
 			<Label Foreground="Red" Margin="5,5,5,5" FontWeight="Bold" >
-				This is an ansychronous methods. unfortunately you cannot get the result of the dialog in powershell.
+				This is a test screen for the new login function
 			</Label>
 			
 
