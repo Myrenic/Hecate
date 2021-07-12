@@ -12,26 +12,24 @@
                             <StackPanel Orientation="Vertical" Margin="5,5,0,0">
 
                                 <Label Content="Account Activation" HorizontalAlignment="Stretch" Height="40" FontSize="20" Foreground="LightSkyBlue" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
-
                                 <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,5" VerticalAlignment="Top"/>
-
                                 <Label Content="User information" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
 
                                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Content="Username :" Width="200"/>
-                                    <TextBox x:Name="dialgUserName" Width="300" FontWeight="Bold"/>
+                                    <TextBox x:Name="dialgNFHUserName" Width="300" FontWeight="Bold"/>
                                 </StackPanel>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Content="" Width="200"/>
-                                    <Button x:Name="btnSearchUser" Content="Search" Width="100"/>
+                                    <Button x:Name="btnNFHSearchUser" Content="Search" Width="100"/>
                                 </StackPanel>
                                 <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,0" VerticalAlignment="Top"/>
 
                                 <Label Content="Options" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
                                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Content="Add to main groups" Width="200"/>
-                                    <CheckBox x:Name="btnAddToMainGroups" VerticalAlignment="Center" IsChecked="True"/>
+                                    <CheckBox x:Name="btnNFHAddToMainGroups" VerticalAlignment="Center" IsChecked="True"/>
                                 </StackPanel>
 
                                 <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,0" VerticalAlignment="Top"/>
@@ -39,12 +37,12 @@
 
                                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Content="Manager Username :" Width="200"/>
-                                    <TextBox x:Name="dialgManagerName" Width="300" IsEnabled="True"/>
+                                    <TextBox x:Name="dialgNFHManagerName" Width="300" IsEnabled="True"/>
                                 </StackPanel>
 
                                 <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
                                     <Label Content="" Width="200"/>
-                                    <Button x:Name="btnSubmit" Content="Send email" Width="100"/>
+                                    <Button x:Name="btnNFHSubmit" Content="Send email" Width="100"/>
                                 </StackPanel>
 
                             </StackPanel>
@@ -59,6 +57,30 @@
 
                                 <Label Content="Account Reset" HorizontalAlignment="Stretch" Height="40" FontSize="20" Foreground="LightSkyBlue" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
                                 <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,5" VerticalAlignment="Top"/>
+                                <Label Content="User information" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,0,0,0" VerticalAlignment="Top" />
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <Label Content="Username :" Width="200"/>
+                                    <TextBox x:Name="dialgPRUserName" Width="300" FontWeight="Bold"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <Label Content="" Width="200"/>
+                                    <Button x:Name="btnPRSearchUser" Content="Search" Width="100"/>
+                                </StackPanel>
+
+                                <GridSplitter HorizontalAlignment="Stretch" Foreground="White" Height="1" Margin="0,20,0,0" VerticalAlignment="Top"/>
+                                <Label Content="Manager information" HorizontalAlignment="Stretch" Height="30" FontWeight="Bold" Margin="0,10,0,0" VerticalAlignment="Top" />
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <Label Content="Manager Username :" Width="200"/>
+                                    <TextBox x:Name="dialgPRManagerName" Width="300" IsEnabled="True"/>
+                                </StackPanel>
+
+                                <StackPanel Orientation="Horizontal" Margin="0,5,0,0">
+                                    <Label Content="" Width="200"/>
+                                    <Button x:Name="btnPRSubmit" Content="Send email" Width="100"/>
+                                </StackPanel>
 
 
                             </StackPanel>
