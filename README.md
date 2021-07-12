@@ -9,7 +9,7 @@ Its current main focus is to help it with my team and my work specifically.
 
 ## TODO
 
-* **Finish Main GUI** and Implement **New Hire** Tab.
+* ✅ **Finish Main GUI** and Implement **New Hire** Tab.
 * Add **Remote** computer diagnostic page
 * **Modular** Powershell functions instead of cramming them all in too form.ps1
 * Settings page to allow different sites to use this tool.
